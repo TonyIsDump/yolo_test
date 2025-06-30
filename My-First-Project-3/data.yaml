@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['football']
+
+roboflow:
+  workspace: object-tracking-7zamj
+  project: my-first-project-cslwr
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-tracking-7zamj/my-first-project-cslwr/dataset/3
