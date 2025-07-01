@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['people']
+
+roboflow:
+  workspace: trail-5cssd
+  project: nigga-2nvhi
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trail-5cssd/nigga-2nvhi/dataset/3
